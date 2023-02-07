@@ -1,0 +1,43 @@
+html, p, body, a, input, table, tr, td, th{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    width: calc(100% - 10%);;
+    margin: auto;
+}
+table, td, th {
+    border: 1px solid;
+    padding: 10px;
+}
+table caption{
+    font-size: 25pt;
+}
+table {
+    word-break: break-all;
+    border-collapse: collapse;
+    width: 100%;
+}
+textarea, input{
+    width:100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+th{
+    font-size: 15pt;
+}
+.col1{
+    min-width: 200px;
+}
+.col2{
+    min-width: 100px;
+}
+.col4{
+    min-width: 100px;
+}
+.SubmitMessage button{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20pt;
+}
