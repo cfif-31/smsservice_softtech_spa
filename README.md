@@ -4,8 +4,8 @@
 
 A simple single page application for sending messages and getting their status from the server
 
-Works in conjunction with [server](https://github.com/cfif-31/SMSService.SoftTech "server git url")
-setup in your server url const.ts file
+Works in conjunction with [server](https://github.com/cfif-31/SMSService.SoftTech "server git url").
+Setup your server url in const.ts file
 
 ### `npm start`
 
