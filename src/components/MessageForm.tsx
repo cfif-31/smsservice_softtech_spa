@@ -1,6 +1,7 @@
 import React, {FC, useState} from 'react';
 import {ISmsMessage} from "../models/SmsMessage";
 import axios from "axios";
+import {baseUrl} from "../consts";
 
 interface MessageFormProps{
     error: (Message:string) => void
@@ -32,7 +33,7 @@ const MessageForm:FC<MessageFormProps> = ({error}) => {
 
     const submitMessage = async () => {
         try {
-            await axios.post("http://localhost:5000/api/SmsMessage", message);
+            await axios.post(`${baseUrl}/SmsMessage`, message);
         } catch (e) {
             error((e as Error).message)
         }
